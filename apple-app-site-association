@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "F8927MCKP7.com.shreyanbudhouliya.CustomChatTest",
+                "paths": ["*"]
+            }
+        ]
+    }
+}
