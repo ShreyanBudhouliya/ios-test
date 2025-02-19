@@ -4,7 +4,20 @@
         "details": [
             {
                 "appID": "F8927MCKP7.com.shreyanbudhouliya.CustomChatTest",
-                "paths": ["/ios-test/*"]
+                "paths": [
+                    "/ios-test/customChatTest",
+                    "/ios-test/customChatTest?*"
+                ],
+                "components": [
+                    {
+                        "/": "/ios-test/customChatTest",
+                        "comment": "Matches any URL with path /ios-test/customChatTest"
+                    },
+                    {
+                        "/": "/ios-test/customChatTest?*",
+                        "comment": "Matches any URL with path and query parameters"
+                    }
+                ]
             }
         ]
     }
